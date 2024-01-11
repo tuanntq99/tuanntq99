@@ -1,6 +1,3 @@
-# Hi, I'm Ngo Tuan 👋
-
-<img height=200 src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact" />
 
 <h1 align="center">Hi 👋, I'm Ngo Tuan</h1>
 <h3 align="center">I am a self-taught programmer. Has a great fondness for code enjoys learning new technologies and discovering the essence of problems.</h3>
@@ -22,7 +19,7 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=salesp07.salesp07" />
 
 <h1 align="center">
-    <img align="center" src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Ngo+Tuan!;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Pedro+Muniz!;" />
 </h1>
 
 <h3 align="center">A passionate software developer from Canada 🇨🇦</h3>
