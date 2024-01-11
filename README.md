@@ -76,6 +76,5 @@
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=Ngo%20Tuan&theme=highcontrast" alt="GitHub Streak" />
+<img width=390 src="https://streak-stats.demolab.com?user=Ngo%20Tuan&count_private=true&theme=react&border_radius=10" alt="GitHub Streak" />
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Ngo%20Tuan&theme=highcontrast)](https://git.io/streak-stats)
