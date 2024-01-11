@@ -47,7 +47,7 @@
     <img src="https://skillicons.dev/icons?i=java,c,react,html,css,javascript,python" />
     <img src="https://skillicons.dev/icons?i=html,css,vscode,eclipse,github,tailwind,git,mysql,postman" /><br>
 </div>
-<img src="https://skillicons.dev/icons?i=java,c,react,redux,bootstrap,html,css,javascript,vscode,eclipse,github,tailwind,git,mysql,postman,python" /><br>
+
 <br/>
 <hr/>
 
