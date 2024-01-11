@@ -76,4 +76,4 @@
 
 <br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark)](https://git.io/streak-stats)
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Ngo%20Tuan&theme=highcontrast" alt="GitHub Streak" /></a>
