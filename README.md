@@ -43,6 +43,7 @@
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
 <div align=center>
+    [![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark)](https://git.io/streak-stats)
     <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=tuanntq99&theme=react&hide_border=true&border_radius=10" alt="GitHub Streak" /></a>
   <img width=390 src="https://streak-stats.demolab.com?user=tuanntq99&count_private=true&theme=react&border_radius=10" alt="GitHub Streak" />
   <img width=390 src="https://github-readme-stats.vercel.app/api?username=tuanntq99&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
