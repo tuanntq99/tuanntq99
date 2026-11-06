@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="502" viewBox="0 0 900 502">
+<style>
+  text { font-family: 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace; font-size: 14.5px; }
+  .ln { animation: in .35s ease-out both; }
+  @keyframes in { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+  .cur { animation: blink 1s step-end infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .ln { animation: none; opacity: 1; } }
+</style>
+<rect x="0.5" y="0.5" width="899" height="501" rx="12" fill="#1e1f22" stroke="#30363d"/>
+<path d="M12.5 .5 H887.5 a12 12 0 0 1 12 12 V38 H.5 V12.5 a12 12 0 0 1 12-12z" fill="#2b2d30"/>
+<line x1="0" y1="38" x2="900" y2="38" stroke="#30363d"/>
+<circle cx="22" cy="19" r="6" fill="#ff5f57"/><circle cx="42" cy="19" r="6" fill="#febc2e"/><circle cx="62" cy="19" r="6" fill="#28c840"/>
+<rect x="88" y="6" width="150" height="32" rx="6" fill="#1e1f22"/>
+<rect x="88" y="35" width="150" height="3" fill="#6db33f"/>
+<text x="104" y="27" fill="#dfe1e5" style="font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif;font-size:13px">☕ AboutMe.java</text>
+<text x="882" y="27" fill="#7a7e85" text-anchor="end" style="font-family:'Segoe UI',-apple-system,Helvetica,Arial,sans-serif;font-size:12px">tuanntq99 / profile</text>
+<g class="ln" style="animation-delay:0.25s"><text x="44" y="70" fill="#4b5059" text-anchor="end">1</text><text x="64" y="70" xml:space="preserve"><tspan fill="#7a7e85">// Hi there! Thanks for dropping by 👋</tspan></text></g>
+<g class="ln" style="animation-delay:0.37s"><text x="44" y="94" fill="#4b5059" text-anchor="end">2</text><text x="64" y="94" xml:space="preserve"><tspan fill="#b3ae60">@Developer</tspan><tspan fill="#bcbec4">(</tspan><tspan fill="#c77dbb">since</tspan><tspan fill="#bcbec4"> = </tspan><tspan fill="#6aab73">2024</tspan><tspan fill="#bcbec4">)</tspan></text></g>
+<g class="ln" style="animation-delay:0.49s"><text x="44" y="118" fill="#4b5059" text-anchor="end">3</text><text x="64" y="118" xml:space="preserve"><tspan fill="#cf8e6d">public class </tspan><tspan fill="#56a8f5">NgoTranQuocTuan</tspan><tspan fill="#cf8e6d"> extends </tspan><tspan fill="#56a8f5">MechanicalEngineer</tspan><tspan fill="#bcbec4"> {</tspan></text></g>
+<g class="ln" style="animation-delay:0.61s"><text x="44" y="142" fill="#4b5059" text-anchor="end">4</text><text x="64" y="142" xml:space="preserve"></text></g>
+<g class="ln" style="animation-delay:0.73s"><text x="44" y="166" fill="#4b5059" text-anchor="end">5</text><text x="64" y="166" xml:space="preserve"><tspan fill="#cf8e6d">    String   </tspan><tspan fill="#c77dbb">role</tspan><tspan fill="#bcbec4">       = </tspan><tspan fill="#6aab73">"Java Backend Developer"</tspan><tspan fill="#bcbec4">;</tspan></text></g>
+<g class="ln" style="animation-delay:0.85s"><text x="44" y="190" fill="#4b5059" text-anchor="end">6</text><text x="64" y="190" xml:space="preserve"><tspan fill="#cf8e6d">    String   </tspan><tspan fill="#c77dbb">experience</tspan><tspan fill="#bcbec4"> = </tspan><tspan fill="#6aab73">"2+ years"</tspan><tspan fill="#bcbec4">;</tspan></text></g>
+<g class="ln" style="animation-delay:0.97s"><text x="44" y="214" fill="#4b5059" text-anchor="end">7</text><text x="64" y="214" xml:space="preserve"><tspan fill="#cf8e6d">    String   </tspan><tspan fill="#c77dbb">location</tspan><tspan fill="#bcbec4">   = </tspan><tspan fill="#6aab73">"Ha Noi, Viet Nam"</tspan><tspan fill="#bcbec4">;</tspan></text></g>
+<g class="ln" style="animation-delay:1.09s"><text x="44" y="238" fill="#4b5059" text-anchor="end">8</text><text x="64" y="238" xml:space="preserve"><tspan fill="#cf8e6d">    String   </tspan><tspan fill="#c77dbb">currently</tspan><tspan fill="#bcbec4">  = </tspan><tspan fill="#6aab73">"Tax payment modules for BIDV Direct @ IGNIFY"</tspan><tspan fill="#bcbec4">;</tspan></text></g>
+<g class="ln" style="animation-delay:1.21s"><text x="44" y="262" fill="#4b5059" text-anchor="end">9</text><text x="64" y="262" xml:space="preserve"><tspan fill="#cf8e6d">    String[] </tspan><tspan fill="#c77dbb">focus</tspan><tspan fill="#bcbec4">      = { </tspan><tspan fill="#6aab73">"Secure APIs"</tspan><tspan fill="#bcbec4">, </tspan><tspan fill="#6aab73">"Payment processing"</tspan><tspan fill="#bcbec4">, </tspan><tspan fill="#6aab73">"Data integrity"</tspan><tspan fill="#bcbec4"> };</tspan></text></g>
+<g class="ln" style="animation-delay:1.33s"><text x="44" y="286" fill="#4b5059" text-anchor="end">10</text><text x="64" y="286" xml:space="preserve"><tspan fill="#cf8e6d">    String   </tspan><tspan fill="#c77dbb">education</tspan><tspan fill="#bcbec4">  = </tspan><tspan fill="#6aab73">"B.Eng Mechanical Engineering @ HUST"</tspan><tspan fill="#bcbec4">;</tspan></text></g>
+<g class="ln" style="animation-delay:1.45s"><text x="44" y="310" fill="#4b5059" text-anchor="end">11</text><text x="64" y="310" xml:space="preserve"><tspan fill="#cf8e6d">    String   </tspan><tspan fill="#c77dbb">funFact</tspan><tspan fill="#bcbec4">    = </tspan><tspan fill="#6aab73">"Self-taught: from machines to microservices"</tspan><tspan fill="#bcbec4">;</tspan></text></g>
+<g class="ln" style="animation-delay:1.57s"><text x="44" y="334" fill="#4b5059" text-anchor="end">12</text><text x="64" y="334" xml:space="preserve"></text></g>
+<g class="ln" style="animation-delay:1.69s"><text x="44" y="358" fill="#4b5059" text-anchor="end">13</text><text x="64" y="358" xml:space="preserve"><tspan fill="#b3ae60">    @Override</tspan></text></g>
+<g class="ln" style="animation-delay:1.81s"><text x="44" y="382" fill="#4b5059" text-anchor="end">14</text><text x="64" y="382" xml:space="preserve"><tspan fill="#cf8e6d">    public </tspan><tspan fill="#56a8f5">String</tspan><tspan fill="#bcbec4"> </tspan><tspan fill="#56a8f5">toString</tspan><tspan fill="#bcbec4">() {</tspan></text></g>
+<g class="ln" style="animation-delay:1.93s"><text x="44" y="406" fill="#4b5059" text-anchor="end">15</text><text x="64" y="406" xml:space="preserve"><tspan fill="#cf8e6d">        return </tspan><tspan fill="#6aab73">"Let's build reliable systems together!"</tspan><tspan fill="#bcbec4">;</tspan></text></g>
+<g class="ln" style="animation-delay:2.05s"><text x="44" y="430" fill="#4b5059" text-anchor="end">16</text><text x="64" y="430" xml:space="preserve"><tspan fill="#bcbec4">    }</tspan></text></g>
+<g class="ln" style="animation-delay:2.17s"><text x="44" y="454" fill="#4b5059" text-anchor="end">17</text><text x="64" y="454" xml:space="preserve"><tspan fill="#bcbec4">}</tspan></text></g>
+<rect class="cur" x="73" y="440" width="9" height="18" fill="#6db33f" style="animation-delay:2.29s"/>
+</svg>
