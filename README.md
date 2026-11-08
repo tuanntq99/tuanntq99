@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1200&color=6DB33F&center=true&vCenter=true&width=640&height=60&lines=Hi+there!+I'm+Ngo+Tran+Quoc+Tuan+%F0%9F%91%8B;Java+Backend+Developer;Spring+Boot+%C2%B7+Kafka+%C2%B7+Oracle+%C2%B7+Redis" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1200&color=6DB33F&center=true&vCenter=true&width=640&height=60&lines=Hi+there!+I'm+Ngo+Tran+Quoc+Tuan+%F0%9F%91%8B;Java+Backend+Developer+%C2%B7+Dev+Lead;Banking+%26+Fintech+Systems;Spring+Boot+%C2%B7+Kafka+%C2%B7+Oracle+%C2%B7+PostgreSQL" alt="Typing intro" />
 
 <p>
-  <b>Java Backend Developer</b> · 2+ years · building transaction-sensitive payment systems
+  <b>Java Backend Developer · Dev Lead</b> · 2.5+ years · banking &amp; fintech systems
 </p>
 
 <p>
@@ -21,14 +21,14 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg" />
-  <img src="./assets/about-light.svg" alt="About me: Java Backend Developer, 2+ years, building tax payment modules for BIDV Direct at IGNIFY" width="100%" />
+  <img src="./assets/about-light.svg" alt="About me: Java Backend Developer and Dev Lead, 2.5+ years, banking and fintech systems: payment processing, loan origination, digital signing" width="100%" />
 </picture>
 
 ### 🛠️ Tech Stack
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack-dark.svg" />
-  <img src="./assets/tech-stack-light.svg" alt="Java, Spring, Kafka, Redis, Hibernate, Quartz, Oracle, MySQL, PostgreSQL, MongoDB, Docker, AWS, Linux, Ubuntu, JUnit, Mockito, SonarQube, IntelliJ, Postman, Git, GitHub, GitLab" width="100%" />
+  <img src="./assets/tech-stack-light.svg" alt="Java 17/21, Spring, Hibernate, Spring Data JPA, Kafka, Quartz, WebSocket, Oracle, PostgreSQL, MySQL, MongoDB, Redis, Docker, AWS, Linux, Ubuntu, JUnit, Mockito, SonarQube, IntelliJ, Postman, Git, GitHub, GitLab, Jira, Angular" width="100%" />
 </picture>
 
 ---

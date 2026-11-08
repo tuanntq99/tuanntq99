@@ -26,11 +26,12 @@ LINES = [
     [("ann", "@Developer"), ("text", "("), ("field", "since"), ("text", " = "), ("str", "2024"), ("text", ")")],
     [("kw", "public class "), ("cls", "NgoTranQuocTuan"), ("kw", " extends "), ("cls", "MechanicalEngineer"), ("text", " {")],
     [],
-    [("kw", "    String   "), ("field", "role"), ("text", "       = "), S("Java Backend Developer"), ("text", ";")],
-    [("kw", "    String   "), ("field", "experience"), ("text", " = "), S("2+ years"), ("text", ";")],
+    [("kw", "    String   "), ("field", "role"), ("text", "       = "), S("Java Backend Developer · Dev Lead"), ("text", ";")],
+    [("kw", "    String   "), ("field", "experience"), ("text", " = "), S("2.5+ years"), ("text", ";")],
+    [("kw", "    String   "), ("field", "currently"), ("text", "  = "), S("Leading backend for banking & fintech systems @ SKYMAP"), ("text", ";")],
+    [("kw", "    String[] "), ("field", "domains"), ("text", "    = { "), S("Payment processing"), ("text", ", "), S("Loan origination"), ("text", ", "), S("Digital signing"), ("text", " };")],
+    [("kw", "    String[] "), ("field", "values"), ("text", "     = { "), S("Transaction integrity"), ("text", ", "), S("On-time delivery"), ("text", " };")],
     [("kw", "    String   "), ("field", "location"), ("text", "   = "), S("Ha Noi, Viet Nam"), ("text", ";")],
-    [("kw", "    String   "), ("field", "currently"), ("text", "  = "), S("Tax payment modules for BIDV Direct @ IGNIFY"), ("text", ";")],
-    [("kw", "    String[] "), ("field", "focus"), ("text", "      = { "), S("Secure APIs"), ("text", ", "), S("Payment processing"), ("text", ", "), S("Data integrity"), ("text", " };")],
     [("kw", "    String   "), ("field", "education"), ("text", "  = "), S("B.Eng Mechanical Engineering @ HUST"), ("text", ";")],
     [("kw", "    String   "), ("field", "funFact"), ("text", "    = "), S("Self-taught: from machines to microservices"), ("text", ";")],
     [],
@@ -78,15 +79,17 @@ def about(theme):
 # ---------------------------------------------------------------- Tech stack
 DEV = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{0}/{0}-{1}.svg"
 GROUPS = [
-    ("Backend", [("Java", "java", "original"), ("Spring", "spring", "original"), ("Kafka", "apachekafka", "original"),
-                 ("Redis", "redis", "original"), ("Hibernate", "hibernate", "plain"), ("Quartz", None, "Qz")]),
-    ("Databases", [("Oracle", "oracle", "original"), ("MySQL", "mysql", "original"),
-                   ("PostgreSQL", "postgresql", "original"), ("MongoDB", "mongodb", "original")]),
-    ("DevOps & Cloud", [("Docker", "docker", "original"), ("AWS", "amazonwebservices", "original"),
+    ("Backend", [("Java 17/21", "java", "original"), ("Spring", "spring", "original"), ("Hibernate", "hibernate", "plain"),
+                 ("Spring JPA", None, "JPA"), ("Kafka", "apachekafka", "original"), ("Quartz", None, "Qz"),
+                 ("WebSocket", None, "WS")]),
+    ("Data & Caching", [("Oracle", "oracle", "original"), ("PostgreSQL", "postgresql", "original"),
+                        ("MySQL", "mysql", "original"), ("MongoDB", "mongodb", "original"), ("Redis", "redis", "original")]),
+    ("Cloud & DevOps", [("Docker", "docker", "original"), ("AWS", "amazonwebservices", "original"),
                         ("Linux", "linux", "original"), ("Ubuntu", "ubuntu", "original")]),
-    ("Testing & Tools", [("JUnit", "junit", "original"), ("Mockito", None, "Mk"), ("SonarQube", "sonarqube", "original"),
-                         ("IntelliJ", "intellij", "original"), ("Postman", "postman", "original"),
-                         ("Git", "git", "original"), ("GitHub", "github", "original"), ("GitLab", "gitlab", "original")]),
+    ("Testing & Quality", [("JUnit", "junit", "original"), ("Mockito", None, "Mk"), ("SonarQube", "sonarqube", "original")]),
+    ("Tools", [("IntelliJ", "intellij", "original"), ("Postman", "postman", "original"), ("Git", "git", "original"),
+               ("GitHub", "github", "original"), ("GitLab", "gitlab", "original"), ("Jira", "jira", "original")]),
+    ("Frontend (basic)", [("Angular", "angular", "original")]),
 ]
 _cache = {}
 def icon(name, variant):
@@ -111,7 +114,7 @@ def stack(theme):
                 body = f'<image x="{x + 18}" y="{y + 10}" width="40" height="40" href="data:image/svg+xml;base64,{icon(dev, var)}"/>'
             else:
                 body = (f'<rect x="{x + 18}" y="{y + 10}" width="40" height="40" rx="10" fill="{c["accent"]}"/>'
-                        f'<text x="{x + TW / 2}" y="{y + 36}" fill="#fff" text-anchor="middle" style="font-family:{SANS};font-size:16px;font-weight:700">{var}</text>')
+                        f'<text x="{x + TW / 2}" y="{y + 36}" fill="#fff" text-anchor="middle" style="font-family:{SANS};font-size:{16 if len(var) < 3 else 13}px;font-weight:700">{var}</text>')
             parts.append(
                 f'<g class="t" style="animation-delay:{0.1 + n * 0.05:.2f}s">'
                 f'<rect x="{x + .5}" y="{y + .5}" width="{TW - 1}" height="{TH - 1}" rx="12" fill="{c["tile"]}" stroke="{c["tileb"]}"/>'
